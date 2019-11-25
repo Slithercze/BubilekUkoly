@@ -15,17 +15,18 @@
 <div class="text">
 
 <?php
+$cislo = 280;
 $slova = fgetcsv(fopen("slova.csv", "r"), 100000, ";");
-
-for ($i = 0;$i < 500;$i++){
+$slovesa = fgetcsv(fopen("slovesa.csv", "r"), 100000, ";");
+for ($i = 0;$i < $cislo;$i++){
     if ($i == 0){
-        echo ucfirst($slova[array_rand($slova)]." ");
+        echo ucfirst($slovesa[array_rand($slovesa)] . " " . $slova[array_rand($slova)] . " ");
     }
-    else if ($i == 499) {
+    else if ($i == $cislo-1) {
         echo $slova[array_rand($slova)].".";
     }
     else {
-        echo $slova[array_rand($slova)]." ";
+        echo $slovesa[array_rand($slovesa)] . " " . $slova[array_rand($slova)] . " ";
     }
 }
 
