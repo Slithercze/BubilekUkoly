@@ -15,9 +15,10 @@
 <div class="text">
 
 <?php
-$cislo = 280;
+$cislo = 200;
 $slova = fgetcsv(fopen("slova.csv", "r"), 100000, ";");
 $slovesa = fgetcsv(fopen("slovesa.csv", "r"), 100000, ";");
+$predlozky = fgetcsv(fopen("predlozky.csv", "r"), 100000, ";");
 for ($i = 0;$i < $cislo;$i++){
     if ($i == 0){
         echo ucfirst($slovesa[array_rand($slovesa)] . " " . $slova[array_rand($slova)] . " ");
@@ -26,7 +27,7 @@ for ($i = 0;$i < $cislo;$i++){
         echo $slova[array_rand($slova)].".";
     }
     else {
-        echo $slovesa[array_rand($slovesa)] . " " . $slova[array_rand($slova)] . " ";
+        echo $slovesa[array_rand($slovesa)] . " " . $slova[array_rand($slova)] . " " . $predlozky[array_rand($predlozky)] . " ";
     }
 }
 
