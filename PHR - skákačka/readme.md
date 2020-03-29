@@ -6,7 +6,7 @@ Pro vývoj hry bych rád zkusil Godot engine, pro design a trailer použiju Adob
 
 ## 3. Grafika 
 Hra se bude nacházet v přírodě, bude to 2D hra. 
-## 4. Zvuk# 
+## 4. Zvuk 
 Zvuky si budu vybírat z internetu, které imitují přírodu
 
 ## 5. Hudba 
