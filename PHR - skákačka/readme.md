@@ -10,4 +10,4 @@ Hra se bude nacházet v přírodě, bude to 2D hra.
 Zvuky si budu vybírat z internetu, které imitují přírodu
 
 ## 5. Hudba 
-Svižná moderní hudba, která vám dodá energii na delší hraní
+Svižná moderní hudba, která vám dodá energii na zábavné hraní
