@@ -10,4 +10,4 @@ Hra se bude nacházet v přírodě, bude to 2D hra.
 Zvuky si budu vybírat z internetu, které imitují přírodu
 
 ## 5. Hudba 
-Hudba bude uklidňující na hráče tak aby se cítil uvolněně, když se nachází v přírodě.
+Svižná moderní hudba
