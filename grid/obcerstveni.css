@@ -1,0 +1,142 @@
+.bila {
+    width: 100%;
+    background: rgb(24, 26, 27);
+    height: 80%;
+    padding: 300px;
+    border-radius: 30px;
+    position: relative;
+    left: 8%;
+    top: 10%;
+    overflow: hidden; 
+}
+
+.jidlo {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    right: 40%;
+    bottom: 300px;
+    display: flex;
+}
+
+h1 {
+    position: relative;
+    left: 42%;
+    color: white;
+    bottom: 50%;
+}
+.jidlo2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.nazvy_jidla1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left: 7%;
+}
+.nazvy_jidla2{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left: 44%;
+}
+.nazvy_jidla3{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left: 69%;
+}
+.nazvy_jidla4{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 850px;
+    left: 14%;
+}
+.nazvy_jidla5{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 850px;
+    left: 46%;
+}
+.nazvy_jidla6{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 850px;
+    left: 81%;
+}
+
+@media (max-width: 1500px){
+    .bila {
+        width: 86%;
+        height: 80%;
+        padding: 300px;
+        border-radius: 30px;
+        position: relative;
+        left: 6%;
+        top: 10%;
+        overflow: hidden; 
+    }
+    .jidlo {
+        position: relative;
+        height: 400px;
+        width: 400px;
+        right: 70%;
+        bottom: 300px;
+        display: flex;
+    }
+}
+
+@media(min-width: 1600px){
+    .bila{
+        width: 81%;
+    }
+    .nazvy_jidla1{
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        top: 450px;
+        left: 13%;
+    }
+    .nazvy_jidla2{
+        font-size: 20px;
+        position: absolute;
+        top: 450px;
+        color: white;
+        left: 43%;
+    }
+    .nazvy_jidla3{
+        font-size: 20px;
+        position: absolute;
+        color: white;
+        top: 450px;
+        left: 64%;
+    }
+    .nazvy_jidla4{
+        font-size: 20px;
+        position: absolute;
+        top: 900px;
+        color: white;
+        left: 19%;
+    }
+    .nazvy_jidla5{
+        font-size: 20px;
+        position: absolute;
+        top: 900px;
+        color: white;
+        left: 45%;
+    }
+    .nazvy_jidla6{
+        font-size: 20px;
+        position: absolute;
+        top: 900px;
+        color: white;
+        left: 73%;
+    }
+}
